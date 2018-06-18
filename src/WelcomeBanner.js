@@ -1,5 +1,5 @@
 import React from "react";
 
-const WelcomeBanner = () => <h1>Welcome!</h1>;
+const WelcomeBanner = props => <h1>Welcome {props.name}!</h1>;
 
 export default WelcomeBanner;
